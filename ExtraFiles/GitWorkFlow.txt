@@ -1,0 +1,27 @@
+# 1. Clone the repo (first time only)
+git clone https://github.com/your-company/project.git
+cd project
+
+# 2. Create a new feature branch
+git checkout -b feature/login
+
+# 3. Do your coding work...
+
+# 4. Stage & commit
+git add .
+git commit -m "Added login feature"
+
+# 5. Push to GitHub
+git push -u origin feature/login
+
+# 6. Open a PR (on GitHub/GitLab)
+# (optional) Code review → Merge to main
+
+# 7. Sync local main
+git checkout main
+git pull origin main
+
+# 8. Delete old branch (optional)
+git branch -d feature/login
+git push origin --delete feature/login
+
